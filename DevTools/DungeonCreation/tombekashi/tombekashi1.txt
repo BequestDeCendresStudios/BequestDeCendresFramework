@@ -1,0 +1,51 @@
+                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+             KKK.KKKKK.KKK             KKK<KKKKK>KKK
+             K...........K             K...........K
+             K...........K             K...........K
+             K...........K             K...........K
+             K...........K             K...........K
+             K...........K             K...........K
+  xxxxxxxx    KKK.KKKKK.KKK             KKK>KKKKK<KKK
+  x  KKK<KKKKK>KKK    x        KKK.KKKKK.KKK    x
+  x  K{=}........GxxxxxxxxxxxxxG........{=}K    x
+  x  K...........K             K...........K    x
+  x  K...........K             K...........K    x
+  x  K...........K             K...........K    x
+  x  K...........GxxxxxxxxxxxxxG...........K    x
+ xx  KKK<KKKKK>KKK             KKK.KKKKK.KKK    x
+ x KKK<KKKKK>KKK             KKK.KKKKK.KKK      x
+ x K...........K             K...........K      x
+ x K...........K             K...........K      x
+ x K...........K             K...........K      x
+ x K...........K             K...........K      x
+ x K........{=}GxxxxxxxxxxxxxG{=}........K      x
+ x KKK.KKKKK.KKK             KKK>KKKKK<KKK      x
+ x KKK.KKKKK.KKK             KKK>KKKKK<KKK      x
+ x K{=}........GxxxxxxxxxxxxxG@.......{=}K      x
+ x K......{=}..GxxxxxxxxxxxxxG..{=}......K      x
+ x K{=}........GxxxxxxxxxxxxxG........{=}K      x
+ x K...........K             K...........K      x
+ x K...........K             K...........K  xxxxxxx
+ x KKK<KKKKK>KKK             KKK.KKKKK.KKK  x     x
+ x       KKK.KKKKK.KKK             KKK>KKKKK<KKK  x
+ x       K....{=}....GxxxxxxxxxxxxxG....{=}....K  x
+ x       K....{=}....GxxxxxxxxxxxxxG....{=}....K  x
+ x       K..{=}......GxxxxxxxxxxxxxG......{=}..K  x
+ x       K...........K  x          K...........K  x
+ x       K...........K  x          K...........K  x
+ x       KKK.KKKKK.KKK  x          KKK>KKKKK<KKK  x
+ xxxxxxxxxxxxxxKKK.KKKKK.KKK             KKK<KKKKK>KKK
+              xK...........K             K...........K
+              xK...........K             K...........K
+              xK....{=}....GxxxxxxxxxxxxxG....{=}....K
+              xK...........K            xK...........K
+              xK...........K            xK...........K
+              xKKK<KKKKK>KKK            xKKK.KKKKK.KKK
+           KKK.KKKKK.KKK             KKK>KKKKK<KKKx
+           K{=}........GxxxxxxxxxxxxxG........{=}Kx
+           K....{=}....GxxxxxxxxxxxxxG....{=}....Kx
+           K...........K             K...........Kx
+           K...........K             K...........Kx
+           K...........K             K...........Kx
+           KKK.KKKKK.KKK             KKK<KKKKK>KKKx
+              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
