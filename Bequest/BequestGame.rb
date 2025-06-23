@@ -100,17 +100,17 @@ module BequestGame
         end
 
         parsers = {
-          "Ereil"                    => "#{$current_monster_name}",
+          "Leurre"                   => "#{$current_monster_name}",
           "#{$current_monster_name}" => "es ereil a toi.",
         }, {
-          "Eblouir"                  => "#{$current_monster_name}",
+          "Otable "                  => "#{$current_monster_name}",
           "#{$current_monster_name}" => "es eblouir par toi.",
         }, {
-          "Plege"                    => "#{$current_monster_name}",
+          "Piege"                    => "#{$current_monster_name}",
           "#{$current_monster_name}" => "es plege par toi.",
         }
 
-        puts "\n[ Ereil #{$lures} ][ Eblouir #{$stuns} ][ Plege #{$traps} ]"
+        puts "\n[ Luerre #{$lures} ][ Otable #{$stuns} ][ Piege #{$traps} ]"
 
         print "Regarder par: #{$current_monster_name}, bokette? << "
 
