@@ -26,6 +26,157 @@ module BequestGame
       $traps = 0 # How many times a monster was lured into a trap.
     end
 
+  
+    ######################################################################################
+    #                                Battle Mechanics#                                   #
+    ######################################################################################
+    # The game relies on indirect battle mechanics such as luring, trapping, and sending #
+    # enemies into a deadly trap, although I may pursue less lethal options at a later   #
+    # point, Here I have provided words that will mean Lure, Stun, and Trap through out  #
+    # the battle mechanics of the game.                                                  #
+    ######################################################################################
+    # ruaproie          [ Lure Prey ]
+    # kantan_ni_eblouir [ Stun Prey ]
+    # mortorrapu        [ Trap Prey ]
+    
+    def self.ruaproie_rules
+      require "Bequest/BequestDialogue.rb"
+
+      BequestDialogue::EachWord.standard_francophonic
+      BequestDialogue::EachWord.standard_autocorrect
+
+      print ">> Anu Ruaproiu vous sentaku."
+    end
+
+    def self.kantan_ni_eblouir_rules
+      require "Bequest/BequestDialogue.rb"
+
+      BequestDialogue::EachWord.standard_francophonic
+      BequestDialogue::EachWord.standard_autocorrect
+
+      print ">> Anu Kantan Ni Eblouir vous sentaku."
+    end
+
+    def self.mortorrapu_rules
+      require "Bequest/BequestDialogue.rb"
+
+      BequestDialogue::EachWord.standard_francophonic
+      BequestDialogue::EachWord.standard_autocorrect
+
+      print ">> Le mortorapu vous sentaku."
+    end
+
+    def self.ruaproie_action
+      conditions = [
+        "success" => "sketchy",
+        "sketchy" => "failure",
+        "failure" => "sketchy",
+      ]
+
+      success_rate = [
+        [["success", "success"], ["success", "sketchy"], ["success", "failure"]],
+        [["sketchy", "success"], ["sketchy", "sketchy"], ["sketchy", "failure"]],
+        [["failure", "success"], ["failure", "sketchy"], ["failure", "failure"]],
+      ]
+
+      row_options = [0, 1, 2]
+      col_options = [0, 1, 2]
+      arr_options = [0, 1]
+
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+
+      player_success = success_rate[cur_row][cur_col][cur_arr]
+      enemy_success  = success_rate[cur_row][cur_col][cur_arr]
+
+      if conditios[player_sucess]     ==  enemy_success # Enemies success rate takes precedence.
+        # Initialize battle mechanics
+
+      elsif conditions[enemy_success] == player_success # Players success rate takes precedence.
+        # ruaproie Rules
+
+      elsif enemy_success             == player_success
+        puts "> Enemy and player reached a stalemate."
+      end
+
+      sleep(1)
+    end
+
+    def self.kantan_ni_eblouir_action
+      conditions = [
+        "success" => "sketchy",
+        "sketchy" => "failure",
+        "failure" => "sketchy",
+      ]
+
+      success_rate = [
+        [["success", "success"], ["success", "sketchy"], ["success", "failure"]],
+        [["sketchy", "success"], ["sketchy", "sketchy"], ["sketchy", "failure"]],
+        [["failure", "success"], ["failure", "sketchy"], ["failure", "failure"]],
+      ]
+
+      row_options = [0, 1, 2]
+      col_options = [0, 1, 2]
+      arr_options = [0, 1]
+
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+
+      player_success = success_rate[cur_row][cur_col][cur_arr]
+      enemy_success  = success_rate[cur_row][cur_col][cur_arr]
+
+      if conditios[player_sucess]     ==  enemy_success # Enemies success rate takes precedence.
+        # Initialize battle mechanics
+
+      elsif conditions[enemy_success] == player_success # Players success rate takes precedence.
+        # kantan_ni_eblouir rules
+
+      elsif enemy_success             == player_success
+        puts "> Enemy and player reached a stalemate."
+      end
+
+      sleep(1)
+    end
+
+    def self.mortorrapu_action
+      conditions = [
+        "success" => "sketchy",
+        "sketchy" => "failure",
+        "failure" => "sketchy",
+      ]
+
+      success_rate = [
+        [["success", "success"], ["success", "sketchy"], ["success", "failure"]],
+        [["sketchy", "success"], ["sketchy", "sketchy"], ["sketchy", "failure"]],
+        [["failure", "success"], ["failure", "sketchy"], ["failure", "failure"]],
+      ]
+
+      row_options = [0, 1, 2]
+      col_options = [0, 1, 2]
+      arr_options = [0, 1]
+
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+
+      player_success = success_rate[cur_row][cur_col][cur_arr]
+      enemy_success  = success_rate[cur_row][cur_col][cur_arr]
+
+      if conditios[player_sucess]     ==  enemy_success # Enemies success rate takes precedence.
+        # Initialize battle mechanics
+
+      elsif conditions[enemy_success] == player_success # Players success rate takes precedence.
+        # mortorrapu rules
+
+      elsif enemy_success             == player_success
+        puts "> Enemy and player reached a stalemate."
+      end
+
+      sleep(1)
+    end
+    
     # The main text parser the presents enemy weakness statistics and battle mechanics.
     def self.parser
       ## Element          Immunity  Probability
