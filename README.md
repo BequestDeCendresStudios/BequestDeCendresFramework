@@ -1,11 +1,6 @@
 ## Bequest De Cendres
 This framework combines stealth, monster hunting, and gothic fiction to express one concept: "Legacy Of Ashes".
 
-## 4D Map Demo
-Traveling along an invisible fourth dimension for hyper travel.
-
-<iframe title="4D Map ASCII Rendering" width="560" height="315" src="https://video.ploud.jp/videos/embed/38cc413c-e309-41cc-9bcf-118b236cce4c" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
-
 ## Gameplay Description
 Gameplay subtly alters based on what your player's mental health score is. Other metrics can also alter outcomes in the game. Currently fleshing out lunar calender mechanics. What used to be the main game mechanic has morphed into one game mechanic when visiting a character in the town.
 
