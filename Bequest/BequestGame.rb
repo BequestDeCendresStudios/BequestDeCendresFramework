@@ -35,9 +35,9 @@ module BequestGame
     # point, Here I have provided words that will mean Lure, Stun, and Trap through out  #
     # the battle mechanics of the game.                                                  #
     ######################################################################################
-    # ruaproie          [ Lure Prey ]
-    # kantan_ni_eblouir [ Stun Prey ]
-    # mortorrapu        [ Trap Prey ]
+    # ruaproie          [ Lure Prey ] - Duapehree [ Dee-Ah Peh-Doh ee-ay ]
+    # kantan_ni_eblouir [ Stun ]      - Kantajieboyay [ Kahn-Tahn ni-Boh-yay ]
+    # mortorrapu        [ Trap ]      - Motodapu [ Mohtoh Dahpee ]
     
     def self.ruaproie_rules
       require "Bequest/BequestDialogue.rb"
