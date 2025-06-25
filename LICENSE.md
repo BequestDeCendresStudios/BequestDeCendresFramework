@@ -45,3 +45,5 @@ Weaponization Against Protected Groups: Is directly used to develop, deploy, or 
 Violation of Human Rights: Violates internationally recognized human rights, civil liberties, or privacy rights, particularly those pertaining to marginalized communities.
 
 The Licensor reserves the exclusive right to audit the Licensee's use of the Licensed Software to ensure compliance, and may immediately terminate this License Agreement upon any breach of these ethical provisions, with no refund of fees.
+
+You are free to talk about what the software is in a vague and abstract way, provided that you do not intentionally misrepresent the underlying architecture. This includes but is not limited to presenting it as an LLM model when it's based on an unrelated architecture.
