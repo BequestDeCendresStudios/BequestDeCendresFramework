@@ -16,6 +16,8 @@ You are not allowed to do pull requests whose main "contribution" is changing th
 
 Using LLMs for the purpose of contribute to this repository is considered in violation of this agreement.
 
+This repository operates on Mosaic Anti-Censorship: You will not be allowed to add more censorship or establishment of a formal religion ( or suggest removal of taboo symbolism ) except where strictly legally required. For such situations see leasing. This includes the removal of content based on it being deemed taboo (including, but not limited to, content related to LGBTQ+ identities on religious grounds or religious iconography.)
+
 ### Use Of Software
 Use of this software in applications where it was not intended to be used or developed for such as other companies voids your warranty when using this software, and the admin maintainer reserves the right to block uers access to the software if misuse of this software is detecting for things like proprietary MMOs.
 
@@ -23,3 +25,5 @@ Use of this software in applications where it was not intended to be used or dev
 This software shall not be leased for profit for those whom wish to use ot for personal uses, but AA and AAA must pay a license fee in order to be able to use and request features. And this developer reserves the exclusive right to refuse requests that are deemed to not be in the public's best interest such as contribution to the public benefit for public education.
 
 Exceptions are not provided for AA or AAA companies using LLMs, and usage of this software shall be revoked for non-compliance with this agreement. All intellectual property is exclusive to the one implementing changes on behalf of said companies.
+
+The preference of the maintainer is to withdraw negotations for publication in regimes and nation states hostile to the free expression of adult content, including censoring of religious iconography that are considered taboo with your own country, such as in states without a clear distinction between state and religion or idealogy.
