@@ -18,5 +18,5 @@ This software shall not be leased for profit for those whom wish to use ot for p
 
 Exceptions are not provided for AA or AAA companies using LLMs, and usage of this software shall be revoked for non-compliance with this agreement. All intellectual property is exclusive to the one implementing changes on behalf of said companies.
 
-## INTERACTION WITH MAINTAINER
-Your participation implies that you agree not to weaponize best practices for the purpose of silencing political dissent from Donald Trump or J.D. Vance. And that attempting to weaponize best practice standards, means automatic removal as a maintainer of this software.
+### INTERACTION WITH MAINTAINER
+Your participation implies that you agree not to weaponize best practices for the purpose of silencing political dissent from Donald Trump or J.D. Vance. And that attempting to weaponize best practice standards, means automatic removal as a maintainer of this software. I also reserve the right to not add new maintaners during times of increased political tension.
