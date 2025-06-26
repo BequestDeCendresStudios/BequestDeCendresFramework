@@ -7,13 +7,13 @@ Gameplay subtly alters based on what your player's mental health score is. Other
 ## Current Genre Possibilities
 Genre possibilities for an Alternate History RPG.
 
-[Geneological Sequels](https://codeberg.org/BequestDeCendresStudios/BequestDeCendresFramework/src/branch/main/Stealth/StealthLineage.rb)<br />
-[Psychological Horror](https://codeberg.org/BequestDeCendresStudios/BequestDeCendresFramework/src/branch/main/Stealth/StealthSanityMeter.rb)<br />
-[Survival Horror RPG](https://codeberg.org/BequestDeCendresStudios/BequestDeCendresFramework/src/branch/main/Stealth/StealthMerchant.rb)<br />
-[Turn Based Tactics](https://codeberg.org/BequestDeCendresStudios/BequestDeCendresFramework/src/branch/main/Experimental/StealthBattleAISystems.rb)<br />
-[Monster Taming](https://codeberg.org/BequestDeCendresStudios/BequestDeCendresFramework/src/branch/main/Experimental/StealthGribatomaton.rb)<br />
-[Text Adventure](https://codeberg.org/BequestDeCendresStudios/BequestDeCendresFramework/src/branch/main/Stealth/StealthTools.rb)<br />
-[Soft Roguelike](https://codeberg.org/BequestDeCendresStudios/BequestDeCendresFramework/src/branch/main/Stealth/StealthMentor.rb)<br />
+[Geneological Sequels](https://codeberg.org/BequestDeCendresStudios/BequestDeCendresFramework/src/branch/main/Bequest/BequestLineage.rb)<br />
+[Psychological Horror](https://codeberg.org/BequestDeCendresStudios/BequestDeCendresFramework/src/branch/main/Bequest/BequestSanityMeter.rb)<br />
+[Survival Horror RPG](https://codeberg.org/BequestDeCendresStudios/BequestDeCendresFramework/src/branch/main/Bequest/BequestMerchant.rb)<br />
+[Turn Based Tactics](https://codeberg.org/BequestDeCendresStudios/BequestDeCendresFramework/src/branch/main/Experimental/BequesthBattleAISystems.rb)<br />
+[Monster Taming](https://codeberg.org/BequestDeCendresStudios/BequestDeCendresFramework/src/branch/main/Experimental/BequestGribatomaton.rb)<br />
+[Text Adventure](https://codeberg.org/BequestDeCendresStudios/BequestDeCendresFramework/src/branch/main/Bequest/BequestTools.rb)<br />
+[Soft Roguelike](https://codeberg.org/BequestDeCendresStudios/BequestDeCendresFramework/src/branch/main/Bequest/BequestMentor.rb)<br />
 
 ## Features Coming Soon
 This will eventually evolve into an interactive fiction in a fantasy language.
