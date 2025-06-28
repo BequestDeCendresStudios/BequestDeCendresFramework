@@ -208,6 +208,64 @@ module BequestDialogue
       @phrase = "#{current_word_class} #{current_noun} #{current_subject} #{current_verb},"
     end
 
+      def self.grammar_one
+      @grammar_one = {
+        word_class: "@current_word_class",
+        noun:       "@current_noun",
+        adjective:  "@current_adjective",
+        subject:    "@current_subject",
+        verb:       "@current_verb",
+        adverb:     "@current_adverb",
+      }
+    end
+
+    def self.grammar_two
+      @grammar_two = {
+        word_class: "@current_word_class",
+        noun:       "@current_noun",
+        adjective:  "@current_adjective",
+        subject:    "@current_subject",
+        verb:       "@current_verb",
+        adverb:     "@current_adverb",
+      }
+    end
+
+    def self.grammar_three
+      @grammar_three = {
+        word_class: "@current_word_class",
+        noun:       "@current_noun",
+        adjective:  "@current_adjective",
+        subject:    "@current_subject",
+        verb:       "@current_verb",
+        adverb:     "@current_adverb",
+      }
+    end
+
+    # Map grammars into a graph
+    def self.map_grammars
+      my_grammars = [
+        [[@grammar_one,   @grammar_one], [@grammar_one,   @grammar_two], [@grammar_one,   @grammar_three]],
+        [[@grammar_two,   @grammar_one], [@grammar_two,   @grammar_two], [@grammar_two,   @grammar_three]],
+        [[@grammar_three, @grammar_one], [@grammar_three, @grammar_two], [@grammar_three, @grammar_three]],
+      ]
+
+      # Randomly select a grammar
+      row_options = [0, 1, 2]
+      col_options = [0, 1, 2]
+      arr_options = [0, 1]
+
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+
+      current_grammar = my_grammars[cur_row][cur_col][cur_arr]
+
+      # Print the grammar (for debugging)
+      current_grammar.each do |key, value|
+        puts "  #{key}: #{value}"
+      end
+    end
+
     def self.standard_autocorrect
       autocorrect = {
         "Ana homme es ne coupe."             =>              "Le homme es ne coupe ",
