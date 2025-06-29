@@ -25,6 +25,12 @@ end
 #######################################################################################
 #                             Gribatomaton Mechanics                                  #
 #######################################################################################
+# Your pet spider pig scopes out and searches for enemies to attack on your behalf,   #
+# while you focus on indirect battle mechanics.                                       #
+#                                                                                     #
+# Your pet from time to time need to upgrade to keep up with the enemies ability to   #
+# learn and evolve your own indirect battle mechanic moves.                           #
+#######################################################################################
 def pet_mechanics
   BequestGribatomaton::EvolutionarySymbolic.guess_next_enemy
 end
