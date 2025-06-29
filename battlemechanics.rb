@@ -4,7 +4,20 @@ require_relative "Bequest/BequestGribatomaton.rb"
 #######################################################################################
 #                                  Player Parser                                      #
 #######################################################################################
-# #
+# This shows the current lunar phase, and how many days till the next lunar phase     #
+# shift. It then procedurally generated a random beast / monster name in the fantasy  #
+# language I have designed, its sanity level, hp count, healing rate.                 #
+#                                                                                     #
+# It then shows you the players states: sanity, hp, and healing rate. And also what   #
+# the current enemies elemental weakness is without a certain probability of their    #
+# immunity degree.                                                                    #
+#                                                                                     #
+# Terminology Update                                                                  # 
+# [ Ereil  ][ Eblouir  ][ Plege  ] is depricated                                      #
+#                                                                                     #
+# It then prompts you to watch out for the specific enemy, and prompts a command from #
+# bokette.                                                                            #
+#######################################################################################
 def player_battle
   Bequest::Player.parser
 end
