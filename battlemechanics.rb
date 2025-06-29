@@ -1,10 +1,17 @@
 require_relative "Bequest/BequestLineage.rb"
 require_relative "Bequest/BequestGribatomaton.rb"
 
+#######################################################################################
+#                                  Player Parser                                      #
+#######################################################################################
+# #
 def player_battle
   Bequest::Player.parser
 end
 
+#######################################################################################
+#                             Gribatomaton Mechanics                                  #
+#######################################################################################
 def pet_mechanics
   BequestGribatomaton::EvolutionarySymbolic.guess_next_enemy
 end
