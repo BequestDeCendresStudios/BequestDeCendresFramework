@@ -1,5 +1,12 @@
 require_relative "Bequest/StealthMaid.rb"
 
+###############################################################################
+#                              Weapon Statistics                              #
+###############################################################################
+# These statistics help inform and train the maid to being a better advisor   #
+# help you clean the mansion, and fight monsters that are under the basement. #
+# The new is in reference to the Brother's Grim fairy tale Maid Maleen        #
+###############################################################################
 def shovel_statistics
   Stealth::ToolStatistics.panel
   Stealth::ToolStatistics.shovel_stats
