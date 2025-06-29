@@ -1,11 +1,12 @@
-require_relative "Stealth/StealthLineage.rb"
+require_relative "Bequest/BequestLineage.rb"
+require_relative "Bequest/BequestGribatomaton.rb"
 
 def player_battle
-  Stealth::Player.parser
+  Bequest::Player.parser
 end
 
 def pet_mechanics
-  StealthGribatomaton::EvolutionarySymbolic.guess_next_enemy
+  BequestGribatomaton::EvolutionarySymbolic.guess_next_enemy
 end
 
 pre_battle = [
