@@ -208,49 +208,49 @@ module BequestCalender
 
         sleep(1)
 
-        LRPS_Framework::LunarCalender.new_moon
+        Bequest::LunarCalender.new_moon
       elsif current_phase == lunar_phases[1]
         puts "\e[38;2;187;127;118mLa phase lunaire actuelle est: Waxing Gibbous. Réinitialisation des statistiques du joueur...\e[0m"
 
         sleep(1)
 
-        LRPS_Framework::LunarCalender.waxing_crescent
+        Bequest::LunarCalender.waxing_crescent
       elsif current_phase == lunar_phases[2]
         puts "\e[38;2;187;127;118mLa phase lunaire actuelle est: First Quarter. Réinitialisation des statistiques du joueur...\e[0m"
 
         sleep(1)
 
-        LRPS_Framework::LunarCalender.first_quarter
+        Bequest::LunarCalender.first_quarter
       elsif current_phase == lunar_phases[3]
         puts "\e[38;2;187;127;118mLa phase lunaire actuelle est: Waxing Gibbous. Réinitialisation des statistiques du joueur...\e[0m"
 
         sleep(1)
 
-        LRPS_Framework::LunarCalender.waxing_gibbous
+        Bequest::LunarCalender.waxing_gibbous
       elsif current_phase == lunar_phases[4]
         puts "\e[38;2;187;127;118mLa phase lunaire actuelle est: Full_moon. Réinitialisation des statistiques du joueur...\e[0m"
 
         sleep(1)
 
-        LRPS_Framework::LunarCalender.full_moon
+        Bequest::LunarCalender.full_moon
       elsif current_phase == lunar_phases[5]
         puts "\e[38;2;187;127;118mLa phase lunaire actuelle est: Waning Gibbous. Réinitialisation des statistiques du joueur...\e[0m"
 
         sleep(1)
 
-        LRPS_Framework::LunarCalender.waning_gibbous
+        Bequest::LunarCalender.waning_gibbous
       elsif current_phase == lunar_phases[6]
         puts "\e[38;2;187;127;118mLa phase lunaire actuelle est: Last Quarter. Réinitialisation des statistiques du joueur...\e[0m"
 
         sleep(1)
 
-        LRPS_Framework::LunarCalender.last_quarter
+        Bequest::LunarCalender.last_quarter
       elsif current_phase == lunar_phases[7]
         puts "\e[38;2;187;127;118mLa phase lunaire actuelle est: Waning Crescent. Réinitialisation des statistiques du joueur...\e[0m"
 
         sleep(1)
 
-        LRPS_Framework::LunarCalender.waning_crescent
+        Bequest::LunarCalender.waning_crescent
       end
 
       sleep(1.5)
