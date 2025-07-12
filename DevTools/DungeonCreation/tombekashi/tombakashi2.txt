@@ -1,0 +1,52 @@
+                                x x x x x x x 
+     KKK   KKK                 x x x x x x x x 
+   KKK>KKKKK<KKK             KKK.KKKKK.KKK  x x
+   K . . . . . K             K . . . . . K   x  
+   K. . . . . .K x x x x x x K. . . . . .K  x x 
+   K . . . .{=}Gx x x x x x xG{=}. . . . K   x 
+   K. . . . . .K             K. . . . . .K  x x
+   K{=}. . . . Gx x x x x x xG . . . .{=}K   x 
+   KKK>KKKKK.KKK x x x x x x KKK>KKKKK.KKK  x x  KKK
+      x x x x  KKK.KKKKK<KKK   x x    x  KKKK.KKKK<KKK
+       x x x x K . . . . . K    x      x K . . . . . K
+            x  K. . . . . .K   x x    x  K. . . . . .K
+             x K . . . . . K    x      x K . . . . . K
+            x  K. . . . . .K   x x    x  K. . . . . .K
+             x K . . . . . Kx x x x    x K . . . . . K
+            x  KKK>KKKKK<KKK x x x    x  KKK.KKKKK.KKK KKK
+             x x x x KKK.KKKKK.KKK     x x x x KKK<KKKKK>KKK
+              x x x xK . . . . . K    x x x x xK . . . . . K
+                   x K. . . . . .K             K. . . . . .K
+                    xK . . . . . K             K . . . . . K
+                   x K. . . . . .Kx x x x      K. . . . . .K
+      x x x x x x x xK . . . . . K x x x x x x K . . . . . K
+       x x x x x x x KKK.KKKKK.KKKx    KKKx x xKKK<KKKKK>KKK
+      x x  KKK>KKKKK.KKK x x x x x x KKK>KKKKK.KKKKK   KKK
+       x   K . . . . . K  x x x x x xK . . . . . K
+      x x  K. . . . {=}G x x x x x x G{=} . . . .K
+       x   K . . . . . K             K . . . . . K
+      x x  K. . . . . .G x x x x x x G. . . . . .K
+       x   K .{=}. . . Gx x x x x x xG . . .{=}. K
+      x x  KKK.KKKKK<KKK             KKK.KKKKK<KKK
+   KKKK.KKKK.KKK   KKK       KKK>KKKKK<KKK  xxxx
+   K...........K x x x x x x K...........K  x
+   K........{=}Gx x x x x x xG{=}........K  x
+   K...........K             K...........K  x
+   K{=}........Gx x x x x x xG........{=}K  x
+   K...........K x x x x x x K...........K  x
+   KKK.KKKKK<KKK             KKK.KKKKK>KKK  x
+   KKK>KKKKK<KKK             KKK.KKKKK.KKK  x
+   K....{=}....GxxxxxxxxxxxxxG....{=}....K  x
+   K...........K             K...........K  x
+   K...........K             K...........K  x
+   K...........GxxxxxxxxxxxxxG...........K  x
+   K..{=}......GxxxxxxxxxxxxxG......{=}..K  x
+   KKK.KKKKK.KKK             KKK<KKKKK>KKK  x
+            x  KKK.KKKKK<KKK             KKK.KKKKK<KKK
+            x  K...........K             K...........K
+            x  K...........K             K...........K
+            x  K........{=}GxxxxxxxxxxxxxG{=}........K
+            x  K...........K             K...........K
+            x  K...........K             K...........K
+            x  KKK<KKKKK>KKK             KKK.KKKKK.KKK
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
